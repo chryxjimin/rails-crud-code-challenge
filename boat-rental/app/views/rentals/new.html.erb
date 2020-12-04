@@ -1,0 +1,9 @@
+<%= form_for @rental do |f| %>
+    <%= f.label :customer_name %>
+    <%= f.text_field :customer_name %>
+    <%= f.label :boat_name %>
+    <%= f.text_field :boat_name %>
+    <%= f.label :date_time %>
+    <%= f.datetime_field :date_time %>
+    <%= f.submit "Submit Form" %>
+<% end %>
